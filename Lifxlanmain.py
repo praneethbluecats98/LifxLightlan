@@ -40,8 +40,6 @@ def on_message(client,userdata,msg):
     placeinproperlist(tag_MAC,place_id)
     #volume_based_colour(tag_MAC,place_id)
     #tag_based_colour(tag_MAC,place_id)
-
-
 ####################### Logic functions ####################################################
 def placeinproperlist(tag_id,place_id):
     global mainoffice,lab,small_component_room,warehouse,callroom
